@@ -88,3 +88,5 @@ Animation and Biography genres have the highest average IMDb ratings (7.3).
 James Cameron leads with the highest average revenue among directors.
 
 2016 had the highest number of movie releases and revenue spike.
+
+preview : ![Dashboard Preview](
