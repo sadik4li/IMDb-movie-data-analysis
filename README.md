@@ -90,3 +90,4 @@ James Cameron leads with the highest average revenue among directors.
 2016 had the highest number of movie releases and revenue spike.
 
 preview : ![Dashboard Preview](https://github.com/sadik4li/IMDb-movie-data-analysis/blob/main/Screenshot%202025-05-27%20235538.png)
+          ![Dashboard Preview](
