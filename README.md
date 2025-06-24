@@ -1,61 +1,36 @@
-# IMDb-movie-data-analysis
-This project presents an in-depth analysis of IMDb movie data spanning from 2006 to 2016, visualized using an interactive Power BI dashboard. The dashboard is designed to offer insights into movie trends, genres, performance metrics, revenue patterns, and director statistics.
+🎬 IMDb Movie Trends & Genre Overview - Power BI Dashboard
+This Power BI project provides a comprehensive analysis of movie trends, genre performance, revenue insights, and director impact based on IMDb movie data. The dashboard is designed to deliver interactive and visually engaging insights for users who want to explore patterns in the film industry over time.
 
-🔍 Overview
+📊 Project Highlights
+Total Movies Analyzed: 1,000 titles
 
-The project uses historical IMDb movie data to uncover trends and performance patterns across various genres and years. The Power BI dashboard is split into two main sections:
+Data Source: IMDb Movie Dataset (2006–2016)
 
-Movie Trends and Genre Overview
+Total Revenue: $72.34K (simulated dataset values)
 
-Performance Insights
+Tools Used: Power BI, Power Query, DAX
 
-🧩 Dashboard Features
+🔍 Key Features & Insights
+1. Movie Trends Overview
+Year-wise count of movies released
 
-Movie Trends and Genre Overview
-KPIs:
+Revenue trend over time (2006–2016)
 
- Total Revenue
+Top 10 genres by average IMDb rating
 
- Total Movies
+Interactive slicers to filter by year and genre
 
- Average IMDb Rating
+2. Genre & Revenue Analysis
+Revenue breakdown by genre and year
 
- Average Metascore
+Performance ranking based on revenue
 
-Filters:
+Metascore and IMDb rating aggregation by genre
 
- Year Selector
+3. Director Performance Insights
+Top 10 directors by average revenue
 
- Genre Selector
-
-Visuals:
-
- Movies Released per Year (Line Chart)
-
- Top 10 Genres by Average Rating (Bar Chart)
-
- Revenue by Genre, Year, and Rank (Table)
-
- Revenue Over Time (Area Chart)
-
-Performance Insights
-Filters:
-
- Director Selector
-
- Year Selector
-
-Title Selector
-
-Visuals:
-
- Top 10 Directors by Average Revenue (Bar Chart)
-
- Detailed Movie Table with Genre, Year, Rating, Revenue, and Director
-
-📁 Data Source
-
-The data used for this analysis is based on IMDb movie records from 2006 to 2016, including attributes such as:
+Detailed movie table showing:
 
 Title
 
@@ -67,27 +42,43 @@ Director
 
 IMDb Rating
 
-Metascore
-
 Revenue
 
-🛠️ Tools Used
+4. Interactive Visualizations
+Intuitive filters for year, genre, director, and title
 
-Power BI: For data modeling, transformation, and interactive dashboard design
+Clean, color-coded layout with dynamic charts
 
-DAX: For calculated measures and KPIs
+Drill-down capabilities for deeper analysis
 
-Power Query: For data cleaning and shaping
+📌 Objectives
+The goal of this dashboard is to:
 
-🎯 Key Insights
+Uncover movie industry trends over a decade
 
-Revenue and number of movies increased significantly by 2016.
+Compare genre performance across multiple dimensions
 
-Animation and Biography genres have the highest average IMDb ratings (7.3).
+Evaluate director influence on revenue and ratings
 
-James Cameron leads with the highest average revenue among directors.
+Provide a dynamic tool for exploring entertainment data
 
-2016 had the highest number of movie releases and revenue spike.
+📁 Dataset Information
+The dataset includes the following fields:
+
+Title, Genre, Director, Year
+
+Revenue (Millions)
+
+IMDb Rating & Metascore
+
+Runtime, Votes, and more
+
+🛠️ Technologies Used
+Power BI for data modeling and visualization
+
+Power Query for data cleaning and transformation
+
+DAX for calculated measures and KPIs
 
 preview : ![Dashboard Preview](https://github.com/sadik4li/IMDb-movie-data-analysis/blob/main/Screenshot%202025-05-27%20235538.png)
           ![Dashboard Preview](https://github.com/sadik4li/IMDb-movie-data-analysis/blob/main/Screenshot%202025-05-27%20235610.png)
