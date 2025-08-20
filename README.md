@@ -1,91 +1,68 @@
-🎬 IMDb Movie Trends & Genre Overview - Power BI Dashboard
+# 🎬 IMDb Movie Trends & Genre Overview - Power BI Dashboard  
 
-This Power BI project provides a comprehensive analysis of movie trends, genre performance, revenue insights, and director impact based on IMDb movie data. The dashboard is designed to deliver interactive and visually engaging insights for users who want to explore patterns in the film industry over time.
+## 📁 Project Overview  
+This **Power BI dashboard** analyzes IMDb movie data to uncover **trends, genre performance, revenue insights, and director impact** over time.  
+The dashboard is designed to provide **interactive and visually engaging insights** for exploring patterns in the film industry.  
 
-📊 Project Highlights
+---
 
-Total Movies Analyzed: 1,000 titles
+## 📊 Project Highlights  
+- **Total Movies Analyzed** → 1,000 titles  
+- **Data Source** → IMDb Movie Dataset (2006–2016)  
+- **Total Revenue** → $72.34K *(simulated dataset values)*  
+- **Tools Used** → Power BI, Power Query, DAX  
 
-Data Source: IMDb Movie Dataset (2006–2016)
+---
 
-Total Revenue: $72.34K (simulated dataset values)
+## 🔍 Key Features & Insights  
 
-Tools Used: Power BI, Power Query, DAX
+### 🎥 1. Movie Trends Overview  
+- Year-wise count of movies released  
+- Revenue trend analysis (2006–2016)  
+- Top 10 genres by average IMDb rating  
+- Interactive slicers → filter by **year** and **genre**  
 
-🔍 Key Features & Insights
+### 🎭 2. Genre & Revenue Analysis  
+- Revenue breakdown by **genre & year**  
+- Performance ranking based on revenue  
+- Metascore & IMDb rating aggregated by genre  
 
-1. Movie Trends Overview
-Year-wise count of movies released
+### 🎬 3. Director Performance Insights  
+- Top 10 directors by **average revenue**  
+- Detailed movie-level table including:  
+  - Title, Year, Genre, Director, IMDb Rating, Revenue  
 
-Revenue trend over time (2006–2016)
+### 📊 4. Interactive Visualizations  
+- Dynamic filters: Year, Genre, Director, Title  
+- Clean, color-coded layout with **dynamic charts**  
+- Drill-down capabilities for deeper exploration  
 
-Top 10 genres by average IMDb rating
+---
 
-Interactive slicers to filter by year and genre
+## 📌 Objectives  
+The dashboard aims to:  
+- Uncover **movie industry trends** across a decade  
+- Compare **genre performance** across ratings & revenue  
+- Evaluate **director influence** on revenue and ratings  
+- Provide a **dynamic exploration tool** for entertainment data  
 
-2. Genre & Revenue Analysis
-Revenue breakdown by genre and year
+---
 
-Performance ranking based on revenue
+## 📂 Dataset Information  
+Dataset fields include:  
+- **Title, Genre, Director, Year**  
+- **Revenue (Millions)**  
+- **IMDb Rating & Metascore**  
+- **Runtime, Votes**, and more  
 
-Metascore and IMDb rating aggregation by genre
+---
 
-3. Director Performance Insights
-Top 10 directors by average revenue
+## 🛠️ Technologies Used  
+- **Power BI** → Data modeling & visualization  
+- **Power Query** → Data cleaning & transformation  
+- **DAX** → Custom measures & KPIs  
 
-Detailed movie table showing:
-
-Title
-
-Year
-
-Genre
-
-Director
-
-IMDb Rating
-
-Revenue
-
-4. Interactive Visualizations
-Intuitive filters for year, genre, director, and title
-
-Clean, color-coded layout with dynamic charts
-
-Drill-down capabilities for deeper analysis
-
-📌 Objectives
-
-The goal of this dashboard is to:
-
-Uncover movie industry trends over a decade
-
-Compare genre performance across multiple dimensions
-
-Evaluate director influence on revenue and ratings
-
-Provide a dynamic tool for exploring entertainment data
-
-📁 Dataset Information
-
-The dataset includes the following fields:
-
-Title, Genre, Director, Year
-
-Revenue (Millions)
-
-IMDb Rating & Metascore
-
-Runtime, Votes, and more
-
-🛠️ Technologies Used
-
-Power BI for data modeling and visualization
-
-Power Query for data cleaning and transformation
-
-DAX for calculated measures and KPIs
-
+---
 
 preview : ![Dashboard Preview](https://github.com/sadik4li/IMDb-movie-data-analysis/blob/main/Screenshot%202025-05-27%20235538.png)
           ![Dashboard Preview](https://github.com/sadik4li/IMDb-movie-data-analysis/blob/main/Screenshot%202025-05-27%20235610.png)
